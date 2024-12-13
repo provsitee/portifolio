@@ -1,0 +1,33 @@
+/*Logotipo do site*/
+.logo {
+  width: 180px;
+}
+
+header {
+  padding: 35px 4%;
+  /* border: 1px solid red; */
+}
+header a {
+  color: #5c5c5c;
+  text-decoration: none;
+  transition: 0.2s;
+  display: inline-block;
+}
+header a:hover {
+  color: #fff;
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*Listas de menus*/
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block; /*Colocar as li uma ao lado da outra*/
+  padding: 0 35px;
+}

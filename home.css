@@ -1,0 +1,42 @@
+section.banner-boas-vindas {
+  padding: 40px 4%;
+  margin: 5px 0;
+}
+
+section.banner-boas-vindas .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+.banner-boas-vindas .text-banner-top h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.banner-boas-vindas .text-banner-top h1 span {
+  color: #00ff08;
+  font-size: 55px;
+}
+.banner-boas-vindas .text-banner-top p {
+  color: #fff;
+  margin: 50px 0;
+}
+
+.img-banner-top img {
+  width: 100%;
+  position: relative;
+  /*Configurar animacao*/
+  animation: flutuar 2s ease-in-out infinite alternate;
+}
+/*Aplicar efeitos flutuantes na imagem do banner*/
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 25px;
+  }
+}
